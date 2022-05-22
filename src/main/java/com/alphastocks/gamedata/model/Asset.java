@@ -27,6 +27,7 @@ import javax.persistence.Table;
     @NamedQuery(name = "Asset.findByDescription", query = "SELECT a FROM Asset a WHERE a.description = :description")})
 public class Asset implements Serializable {
 
+    
     @Column(name = "city")
     private String city;
 
